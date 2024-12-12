@@ -334,7 +334,10 @@ li {
     display: grid;
     grid-template-rows: 1fr 1fr;
     grid-template-columns: 1fr 1fr 1fr;
-    margin: 0 auto;
+    margin-left: 180px;
+    margin-right: 180px;
+    margin-top: -50px;
+    margin-bottom: 100px;
 }
 
 .item {
@@ -344,4 +347,5 @@ li {
 
 .item-1 {
     grid-column: span 3;
+    padding-bottom: 0;
 }
