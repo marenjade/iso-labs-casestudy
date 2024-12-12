@@ -313,7 +313,7 @@ i {
     margin: 15px;
 }
 
-li {
+.nav-right li {
     display: flex;
     border: 0.5px solid black;
     border-radius: 0.5rem;
@@ -343,9 +343,39 @@ li {
 .item {
     border: .5px solid black;
     border-collapse: collapse;
+    border-radius: 1rem;
+}
+
+.item ul {
+    display: flex;
+    gap: 15px;
+    list-style-type: disc;
+    border: none;
+    font-size: 15px;
+    font-weight: 400;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.item li {
+    list-style-type: disc;
 }
 
 .item-1 {
     grid-column: span 3;
     padding-bottom: 0;
+    font-size: 50px;
+    padding-top: 30px;
+    padding-left: 30px;
+    height: 90px;
+}
+
+.item-2, .item-3, .item-4 {
+    height: 400px;
+    margin-top: -170px;
+    padding: 30px;
+}
+
+.item-2, .item-3, .item-4 p {
+    font-size: 30px;
 }
