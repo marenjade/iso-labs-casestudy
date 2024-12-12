@@ -468,6 +468,7 @@ i {
     margin-right: 180px;
     margin-top: -50px;
     margin-bottom: 100px;
+    z-index: -2;
 }
 
 .item {
@@ -532,7 +533,8 @@ i {
     border-radius: 1rem;
     margin-left: 20px;
     margin-right: 20px;
-    margin-top: 200px;
+    margin-top: 150px;
+    z-index: 2;
 }
 
 .footer-grid {
@@ -545,6 +547,7 @@ i {
     font-size: 10px;
     margin-bottom: 0;
     font-weight: 300;
+    z-index: 2;
 }
 
 .texxt {
@@ -622,4 +625,25 @@ i {
     grid-row: span 3;
     padding: 10px;
     padding-left: 20px;
+}
+
+.fixed-button {
+    position: fixed;
+    bottom: 30px;
+    left: 30px;
+    padding: 10px 15px;
+    background-color: transparent;
+    backdrop-filter: blur(10px);
+    border: .5px solid #4d4d4d;
+    color: #4d4d4d;
+    border-radius: .5rem;
+    font-size: 12px;
+    cursor: pointer;
+    z-index: 1000;
+    font-weight: 100;
+}
+
+.fixed-button:hover {
+    background-color: #1E1E1E;
+    color: white;
 }
