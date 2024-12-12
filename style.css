@@ -479,3 +479,9 @@ i {
 .item-2, .item-3, .item-4 p {
     font-size: 30px;
 }
+
+.hero {
+    margin-left: 180px;
+    margin-right: 180px;
+    margin-top: 70px;
+}
