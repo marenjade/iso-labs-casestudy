@@ -201,6 +201,23 @@ a {
     justify-content: center;
 }
 
+.button--w {
+    background-color: #1E1E1E;
+    color: white;
+    font-size: 13px;
+    border: .5px solid black;
+    border-radius: 0.5rem;
+    padding: 6px;
+    padding-top: 4px;
+    width: 120px;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .hero {
     display: flex;
     flex-direction: column;
@@ -311,4 +328,20 @@ li {
 .nav {
     display: flex;
     justify-content: space-between;
+}
+
+.grid {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 0 auto;
+}
+
+.item {
+    border: .5px solid black;
+    border-collapse: collapse;
+}
+
+.item-1 {
+    grid-column: span 3;
 }
