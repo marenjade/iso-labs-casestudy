@@ -3,7 +3,6 @@ html {
   }
   
 body {
-    background-color: #E4FFFE;
     font-size: 1.5rem;
     font-family: libre franklin;
     font-weight: 100;
@@ -399,7 +398,7 @@ i {
     align-items: center;
     border-collapse: collapse;
     width: 230px;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 400;
 }
 
@@ -419,15 +418,16 @@ i {
 }
 
 .item2-2, .item3-2 {
-    padding: 5px
+    padding: 8px
 }
 
 .logo-2 {
     display: flex;
-    max-width: 35px;
+    max-width: 30px;
     align-items: center;
     justify-content: center;
     margin: 5px;
+    padding: 3px;
 }
 
 .logo {
@@ -566,11 +566,11 @@ i {
     z-index: 2;
 }
 
-.texxt {
+.text-3 {
     margin-top: 90px;
 }
 
-.textt {
+.text-4 {
     margin-top: 30px;
 }
 
