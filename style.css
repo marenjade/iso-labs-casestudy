@@ -485,3 +485,8 @@ i {
     margin-right: 180px;
     margin-top: 70px;
 }
+
+.five-img {
+    z-index: -1;
+    width: 500px;
+}
