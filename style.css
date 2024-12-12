@@ -2,7 +2,7 @@ html {
     scroll-behavior: smooth;
   }
   
-  body {
+body {
     background-color: #E4FFFE;
     font-size: 1.5rem;
     font-family: libre franklin;
@@ -443,6 +443,11 @@ i {
     margin: 15px;
 }
 
+.nav-right li:hover {
+    border-radius: 2rem;
+    transition: border-radius 1s ease;
+}
+
 .nav-right li {
     display: flex;
     border: 0.5px solid black;
@@ -535,6 +540,7 @@ i {
     margin-right: 20px;
     margin-top: 150px;
     z-index: 2;
+    margin-bottom: 100px;
 }
 
 .footer-grid {
@@ -646,4 +652,15 @@ i {
 .fixed-button:hover {
     background-color: #1E1E1E;
     color: white;
+}
+
+.button:hover {
+    background-color: #1E1E1E;
+    color: white;
+}
+
+.button2:hover {
+    background-color: transparent;
+    border: .5px solid #1E1E1E;
+    color: #1E1E1E;
 }
