@@ -3,7 +3,6 @@ html {
   }
   
 body {
-    background-color: #E4FFFE;
     font-size: 1.5rem;
     font-family: libre franklin;
     font-weight: 100;
@@ -567,11 +566,11 @@ i {
     z-index: 2;
 }
 
-.texxt {
+.text-3 {
     margin-top: 90px;
 }
 
-.textt {
+.text-4 {
     margin-top: 30px;
 }
 
