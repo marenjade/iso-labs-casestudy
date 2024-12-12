@@ -399,7 +399,7 @@ i {
     align-items: center;
     border-collapse: collapse;
     width: 230px;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 400;
 }
 
@@ -419,15 +419,16 @@ i {
 }
 
 .item2-2, .item3-2 {
-    padding: 5px
+    padding: 8px
 }
 
 .logo-2 {
     display: flex;
-    max-width: 35px;
+    max-width: 30px;
     align-items: center;
     justify-content: center;
     margin: 5px;
+    padding: 3px;
 }
 
 .logo {
